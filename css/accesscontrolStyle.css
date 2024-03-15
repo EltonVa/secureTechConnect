@@ -4,6 +4,14 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
   color:black;
 }/* head and hero*/
+
+#logo{
+  padding-left: 5px;
+  padding-top: 5px;
+  width:70px; 
+  height:60px;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../access control/hero_img.jpg");
   height: 80%;
