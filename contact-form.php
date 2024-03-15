@@ -4,7 +4,7 @@ $name=$_POST['name'];
 $visitor_email=$_POST['email'];
 $message=$_POST['message'];
 
-$email_form='firealarmsecurity@zedy3d2.com';
+$email_form='securetechconnect.com';
 
 $email_subject=`New form submission $name`;
 $email_body= "Uer Name: $name.\n".
