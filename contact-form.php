@@ -6,7 +6,7 @@ $message=$_POST['message'];
 
 $email_form='securetechconnect.com';
 
-$email_subject=`New form submission $name`;
+$email_subject=`New form submission from $name`;
 $email_body= "Uer Name: $name.\n".
             "User Email: $visitor_email.\n".
             "User message: $message.\n";
