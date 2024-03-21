@@ -13,13 +13,22 @@ body, html {
 }
 
 .hero-image {
-  background-image: url("../camerasec/camera_large.jpg") ;
-  height: 90%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url("../intercom/code1.jpg");
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+}
+@media screen and (max-width: 850px) {
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url("../intercom/code1.jpg");
+    height: 90vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 }
 .hero-text {
   text-align: center;
@@ -109,9 +118,12 @@ html {
 }/*-- cards-------------*/
 .column {
   float: left;
-  width: 33.3%;
+  width: 50%;
   margin-bottom: 16px;
   padding: 0 8px;
+}
+img#picture{
+  padding-bottom: 15px;
 }
 
 @media screen and (max-width: 650px) {
@@ -165,8 +177,11 @@ html {
 
 
 
+
+
+
 /*--footer--*/
-#foot{
+#foot {
     padding-top: 40px;
     padding-bottom: 40px;
 }
